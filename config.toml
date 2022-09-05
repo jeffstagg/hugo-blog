@@ -1,0 +1,78 @@
+baseURL = "https://jeffstagg.github.io/"
+languageCode = 'en-us'
+title = "The Stateless Architect"
+themesDir = "./themes"
+copyright = "Copyrights are a hindrance to the positive growth of society. Intellectual Property laws create an artificial scarcity by controlling supply of the product."
+theme = "terminal"
+paginate = 8
+pygmentsUseClasses=true
+
+[params]
+  author = "Jeff Stagg"
+  description = "Undocumented Solarpunk"
+  contentTypeName = "posts"
+  themeColor = "blue"
+  showMenuItems = 3
+  fullWidthTheme = false
+  centerTheme = true
+  Toc = true
+  TocTitle = "Contents"
+  
+  [[params.social]]
+    icon = "github"
+    name = "jeffstagg"
+    url = "https://github.com/jeffstagg"
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/jeffstagg"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class=\"fas fa-home fa-sm\"></i>"
+    url = "/"
+    weight = -8
+  [[menu.main]]
+    name = "Blog"
+    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
+    url = "/posts/"
+    weight = -7
+  [[menu.main]]
+    name = "Notes"
+    pre = "<i class=\"fas fa-sticky-note fa-ms\"></i>"
+    url = "/notes/"
+    weight = -6
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    pre = "<i class=\"fas fa-tags fa-ms\"></i>"
+    url = "/tags/"
+    weight = -5
+  [[menu.main]]
+    name = "RSS"
+    pre = "<i class=\"fas fa-rss fa-ms\"></i>"
+    url = "/index.xml"
+    weight = -4 
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Jeff Stagg"
+    subtitle = "The Stateless Architect"
+    owner = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Jeff Stagg"
+      logoHomeLink = "/"
+
