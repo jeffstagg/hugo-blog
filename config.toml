@@ -1,11 +1,19 @@
-baseURL = "https://jeffstagg.github.io/"
+baseURL = "https://jeffstagg.com/"
 languageCode = 'en-us'
-title = "The Stateless Architect"
+title = "Jeff Stagg"
+subtitle = "The Stateless Architect"
 themesDir = "./themes"
 copyright = "Copyrights are a hindrance to the positive growth of society. Intellectual Property laws create an artificial scarcity by controlling supply of the product."
 theme = "terminal"
 paginate = 8
 pygmentsUseClasses=true
+menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
 
 [params]
   author = "Jeff Stagg"
@@ -26,6 +34,9 @@ pygmentsUseClasses=true
     icon = "linkedin"
     name = "LinkedIn"
     url = "https://linkedin.com/in/jeffstagg"
+  [[params.logo]]
+    logoText = "Jeff Stagg"
+      logoHomeLink = "/"
 
 [menu]
   [[menu.main]]
@@ -58,20 +69,6 @@ pygmentsUseClasses=true
 
 [languages]
   [languages.en]
-    languageName = "English"
-    title = "Jeff Stagg"
-    subtitle = "The Stateless Architect"
-    owner = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
-
     [languages.en.params.logo]
       logoText = "Jeff Stagg"
       logoHomeLink = "/"
