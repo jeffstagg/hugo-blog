@@ -2,14 +2,16 @@
 author = "Jeff Stagg"
 title = "Introducing the Over-Engineered Resume"
 date = 2022-09-04
-description = "Building out a project to help you get your next tech job."
+description = "Every coder needs a project to hack away at. We're going to over-engineer a resume to play with some code."
 tags = [
 "resume",
-"job-hunting",
+"portfolio-building",
+"code samples"
 ]
 categories = [
 "tech",
 ]
+series = ["Over-Engineered Resume"]
 +++
 
 # Introducing the Over-Engineered Resume
